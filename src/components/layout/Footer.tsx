@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <footer className="bg-white pt-20 pb-10 text-gray-700">
 
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12">
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
 
         {/* ================= LEFT : ABOUT ================= */}
         <div>

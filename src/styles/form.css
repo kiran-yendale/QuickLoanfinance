@@ -1,0 +1,90 @@
+/* FORM INPUT */
+
+.form-input {
+
+  width: 100%;
+  padding: 12px 16px;
+
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+
+  background: #ffffff;
+  color: #111827;
+
+  outline: none;
+
+  transition: all 0.2s ease;
+
+}
+
+.form-input:focus {
+
+  border-color: #1e3a8a;
+  box-shadow: 0 0 0 2px rgba(30,58,138,0.15);
+
+}
+
+/* DARK MODE */
+
+.dark .form-input {
+
+  background: #1f2937;
+  border-color: #374151;
+  color: #f9fafb;
+
+}
+
+.dark .form-input::placeholder {
+  color: #9ca3af;
+}
+
+/* OTP INPUT */
+
+.otp-input {
+
+  width: 40px;
+  height: 48px;
+
+  text-align: center;
+  font-size: 18px;
+
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+
+}
+
+/* SUCCESS MODAL */
+
+.success-circle {
+
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+  background: #dcfce7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* MODAL ANIMATION */
+
+@keyframes scaleIn {
+
+  0%{
+    transform:scale(0.8);
+    opacity:0;
+  }
+
+  100%{
+    transform:scale(1);
+    opacity:1;
+  }
+
+}
+
+.animate-scaleIn{
+  animation:scaleIn 0.25s ease-out;
+}

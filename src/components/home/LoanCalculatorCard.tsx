@@ -1,9 +1,9 @@
 "use client";
-
+import { useRouter } from "next/navigation";
 import useLoanCalculator from "@/hooks/useLoanCalculator";
 
 export default function LoanCalculatorCard() {
-
+const router = useRouter();
   const {
     amount,
     rate,
@@ -181,7 +181,7 @@ export default function LoanCalculatorCard() {
         {/* Button */}
         <div className="flex justify-center mt-6">
           <button className="bg-orange-500 hover:bg-orange-600
-          transition px-8 py-2 rounded-lg font-semibold text-sm shadow-md">
+          transition px-8 py-2 rounded-lg font-semibold text-sm shadow-md" onClick={() => router.push("/apply")}>
             APPLY NOW →
           </button>
         </div>

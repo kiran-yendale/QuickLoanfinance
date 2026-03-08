@@ -42,7 +42,7 @@ export default function AboutUs() {
       </section>
 
       {/* ================= WELCOME SECTION ================= */}
-      <section className="bg-gray-50 py-20">
+      <section className="bg-gray-50 py-10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
           
           {/* Image */}
@@ -140,7 +140,7 @@ export default function AboutUs() {
       Why Choose Us
     </h2>
 
-    <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+    <div className="mt-14 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10">
 
       {[
         { img: "/images/person1.png", name: "Neeraj Sharma", role: "Branch Manager" },
